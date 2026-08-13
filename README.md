@@ -43,4 +43,3 @@ The database uses a relational structure with interconnected entities for custom
 ## Objective
 
 The project demonstrates the application of **relational database design and SQL** to organize restaurant data and support efficient management of interconnected operational workflows.
-
