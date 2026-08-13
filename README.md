@@ -1,24 +1,46 @@
-
 # Restaurant Management System
 
-This is a comprehensive restaurant management system.
-To setup this project you will require the following:
+A relational database system designed to support core restaurant operations including **order processing, menu management, table management, employee management, customer feedback, billing, and delivery tracking**.
 
-- Java JDK 21 or Above
-- MySQL
-- MySQL Connector for Java
-- MySQL Workbench
+## Tech Stack
 
-First clone this repository and first run the DDL.sql script in the SQL folder and then to populate some initial data run the test_data.sql script from MySQL workbench
-After all the data has been populated you can go into the src folder and run the RMS.java file (make sure to change the database connection string in the RMS.java file with your user and password)
-There are the following users populated with each user's password being the word 'password'
+* **Database:** MySQL
+* **Database Design:** Relational schema, primary & foreign keys
+* **SQL:** DDL, data insertion, querying and CRUD operations
+* **Tools:** MySQL Workbench
 
-- john_doe : Manager
-- alice_smith : Waiter
-- bob_johnson : Waiter
-- charlie_brown : Cook (Italian)
-- emma_lee : Cook (Chinese)
-- david_williams : Cook (Mexican)
-- olivia_taylor : Cook (Indian)
-- ethan_anderson : Cook (American)
-- sophia_martinez : Delivery Representative
+## Project Structure
+
+| File                     | Description                                                        |
+| ------------------------ | ------------------------------------------------------------------ |
+| `DDL.sql`                | Defines the database schema, tables, constraints and relationships |
+| `test_data.sql`          | Populates the database with sample restaurant data                 |
+| `relational_schema`      | Visual representation of the database relationships                |
+| `Project_Description.md` | Overview of system modules and functionality                       |
+
+## Core Modules
+
+* **Order Management:** Manage customer orders and order items
+* **Menu Management:** Maintain menu items, prices, descriptions and categories
+* **Table Management:** Track tables, reservations and table availability
+* **Employee Management:** Store employee information, roles and operational details
+* **Billing:** Maintain invoices and payment-related records
+* **Customer Management:** Store customer information and feedback
+* **Delivery Management:** Track delivery representatives and orders
+* **Kitchen Operations:** Support order tracking and preparation workflows
+
+## Database Design
+
+The database uses a relational structure with interconnected entities for customers, employees, menu items, orders, tables, invoices and deliveries. **Primary and foreign keys** are used to maintain data integrity and establish relationships between operational modules.
+
+## Setup
+
+1. Install **MySQL** and **MySQL Workbench**.
+2. Open `DDL.sql` in MySQL Workbench and execute it to create the database structure.
+3. Execute `test_data.sql` to populate the database with sample records.
+4. Use the resulting relational database to explore and query restaurant operations.
+
+## Objective
+
+The project demonstrates the application of **relational database design and SQL** to organize restaurant data and support efficient management of interconnected operational workflows.
+
