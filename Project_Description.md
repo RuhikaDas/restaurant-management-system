@@ -58,3 +58,4 @@ The system uses a **relational database model** with multiple interconnected ent
 * Designed and structured a relational database for a multi-module business workflow.
 * Applied SQL-based database operations for data creation, management and retrieval.
 * Worked with entity relationships, primary keys, foreign keys and structured test data.
+
